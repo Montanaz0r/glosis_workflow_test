@@ -30,8 +30,8 @@ glosis_prop: a owl:Ontology,
     dct:source "Data model for the Global Soil Information System (GloSIS) v1.0, edited by Tomas Reznik and Katharina Schleidt"@en ;
     dct:title "GLOSIS code lists properties"@en ;
     rdfs:comment "This module contains all the code lists of properties."@en ;
-    owl:versionIRI glosis_prop:1.5.1 ;
-    owl:versionInfo "1.5.1" ;
+    owl:versionIRI glosis_prop:2.0.1 ;
+    owl:versionInfo "2.0.1" ;
     skos:note "This code list provides possible values for glosis properties."@en ;
     skos:prefLabel "Code list for Glosis properties - codelist scheme"@en .
 
@@ -607,8 +607,7 @@ glosis_prop:descriptivePropertyCode-biologicalFeaturesProperty a glosis_prop:Des
 glosis_prop:descriptivePropertyCode-bleachedSandProperty a glosis_prop:DescriptivePropertyCode,
         skos:Concept ;
     dct:isPartOf glosis_prop:DescriptivePropertyCollection ;
-    skos:definition "00The Bleached Sand property refers to the physical characteristic of sandy soil that has undergone a bleaching process due to leaching, where minerals such as iron and other elements have been removed by water. This process often occurs in areas with high rainfall, leading to a soil that appears lighter in color. Bleached sand typically indicates low fertility and poor nutrient-holding capacity due to the lack of iron and other nutrients that are washed away. Source: Brady, N. C., & Weil, R. R. (2008). The Nature and Properties of Soils (14th ed.). Pearson Prentice Hall. Guidelines for Soil Description issued by the FAO: table 23",
-        "The Bleached Sand property refers to the physical characteristic of sandy soil that has undergone a bleaching process due to leaching, where minerals such as iron and other elements have been removed by water. This process often occurs in areas with high rainfall, leading to a soil that appears lighter in color. Bleached sand typically indicates low fertility and poor nutrient-holding capacity due to the lack of iron and other nutrients that are washed away. Source: Brady, N. C., & Weil, R. R. (2008). The Nature and Properties of Soils (14th ed.). Pearson Prentice Hall. Guidelines for Soil Description issued by the FAO: table 23" ;
+    skos:definition "The Bleached Sand property refers to the physical characteristic of sandy soil that has undergone a bleaching process due to leaching, where minerals such as iron and other elements have been removed by water. This process often occurs in areas with high rainfall, leading to a soil that appears lighter in color. Bleached sand typically indicates low fertility and poor nutrient-holding capacity due to the lack of iron and other nutrients that are washed away. Source: Brady, N. C., & Weil, R. R. (2008). The Nature and Properties of Soils (14th ed.). Pearson Prentice Hall. Guidelines for Soil Description issued by the FAO: table 23" ;
     skos:inScheme glosis_prop: ;
     skos:notation "bleachedSandProperty" ;
     skos:prefLabel "Bleached Sand Property"@en ;
